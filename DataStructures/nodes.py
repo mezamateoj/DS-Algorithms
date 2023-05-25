@@ -1,3 +1,5 @@
+# Basic Node Implementation
+
 class Nodes:
     def __init__(self, value, link_node=None):
         self.value = value
@@ -12,8 +14,6 @@ class Nodes:
     def get_value(self):
         return self.value
 
-
-    
 node_1 = Nodes('I am node 1')
 node_2 = Nodes('I am node 2')
 node_3 = Nodes('I am node 3')
