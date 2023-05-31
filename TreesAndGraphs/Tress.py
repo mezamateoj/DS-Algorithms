@@ -1,7 +1,4 @@
-
-
 class TreeNode:
-
     def __init__(self, value):
         self.value = value  # data
         self.children = []  # reference to other nodes
@@ -27,16 +24,16 @@ class TreeNode:
 
 
 
-root = TreeNode('Founder')
-child_a = TreeNode('VP of Bananas')
-child_b = TreeNode('Executive Assistant')
-child_c = TreeNode('Banana R & D')
+# root = TreeNode('Founder')
+# child_a = TreeNode('VP of Bananas')
+# child_b = TreeNode('Executive Assistant')
+# child_c = TreeNode('Banana R & D')
  
-# adding children to the root
-root.add_child(child_a)
-root.add_child(child_b)
+# # adding children to the root
+# root.add_child(child_a)
+# root.add_child(child_b)
  
-# assigning child_c to child_a creates an additional level in the tree
-child_a.add_child(child_c)
+# # assigning child_c to child_a creates an additional level in the tree
+# child_a.add_child(child_c)
  
-root.traverse()
+# root.traverse()
